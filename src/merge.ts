@@ -13,13 +13,11 @@ export function merge(collection1: number[], collection2: number[]): number[] {
       }
     }
   
-    // Add any remaining elements from collection1
     while (i < collection1.length) {
       merged.push(collection1[i]);
       i++;
     }
   
-    // Add any remaining elements from collection2
     while (j < collection2.length) {
       merged.push(collection2[j]);
       j++;
