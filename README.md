@@ -1,5 +1,3 @@
-create directory: `mkdir typescript-project`
-
 change into your project directory: `cd typescript-project`
 
 install TypeScript: `npm i typescript --save-dev`
